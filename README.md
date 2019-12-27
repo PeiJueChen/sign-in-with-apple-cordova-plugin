@@ -1,14 +1,15 @@
-### Reqired
+### Required
 
-```js
-* mac 10.15.0 or above
-* ios13 or above
+``` js
+* mac 10.15 .0 or above
+* os13 or above 
 * enables `Sign in with Apple` features on Apple developer website
-* Signing & Capabilities in Xcode enables `Sign in with Apple`
+* Signing & Capabilities in Xcode enables `Sign in with Apple` 
 ```
 
 ###Installation
-```
+
+``` 
 cordova plugin add sign-in-with-apple-cordova-plugin
 Or
 cordova plugin add https://github.com/PeiJueChen/sign-in-with-apple-cordova-plugin.git
@@ -20,9 +21,13 @@ cordova plugin add https://github.com/PeiJueChen/sign-in-with-apple-cordova-plug
 var signInWithApple = window['SignInWithApple'];
 
 // only ios13 or above
+
+1. can show apple login button
 let can = signInWithApple.canShowButton;
 
+2. login
 signInWithApple.login((result) => {
+
     /* 
     success: {"state" : 1, info: {state:xx,userIdentifier:xx,familyName:xx,givenName:xx,nickname:xx,middleName:xx,namePrefix:xx,email:xx,identityToken:xx,authCode:xx....}} 
 
@@ -42,7 +47,9 @@ signInWithApple.login((result) => {
     console.log(err)
 });
 
+3. check state
 signInWithApple.checkStateWithUserID((result) => {
+
     /* result:
     {"state":1,"errDesc": "Apple ID Credential is valid"}
     {"state":-1, "errDesc": "Apple ID Credential revoked, handle unlink"}
