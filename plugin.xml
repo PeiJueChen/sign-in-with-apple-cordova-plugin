@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" 
-   xmlns:android="http://schemas.android.com/apk/res/android" id="sign-in-with-apple-cordova-plugin" version="0.0.1">
+   xmlns:android="http://schemas.android.com/apk/res/android" id="sign-in-with-apple-cordova-plugin" version="0.0.3">
    <name>Sign In With Apple</name>
    <js-module name="sign-in-with-apple-cordova-plugin" src="www/sign-in-with-apple-cordova-plugin.js">
-      <!--
-      <clobbers target="cordova.plugins.OrderPlace" />
-      -->
       <clobbers target="SignInWithApple" />
    </js-module>
 
