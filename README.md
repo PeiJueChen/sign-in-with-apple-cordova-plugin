@@ -2,7 +2,7 @@
 
 ``` js
 * mac 10.15 .0 or above
-* os13 or above 
+* iOS13 or above 
 * enables `Sign in with Apple` features on Apple developer website
 * Signing & Capabilities in Xcode enables `Sign in with Apple` 
 ```
