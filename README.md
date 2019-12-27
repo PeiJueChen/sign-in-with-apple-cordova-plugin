@@ -7,7 +7,7 @@
 * Signing & Capabilities in Xcode enables `Sign in with Apple` 
 ```
 
-###Installation
+### Installation
 
 ``` 
 cordova plugin add sign-in-with-apple-cordova-plugin
