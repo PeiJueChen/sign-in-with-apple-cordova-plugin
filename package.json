@@ -1,0 +1,23 @@
+{
+  "name": "sign-in-with-apple-cordova-plugin",
+  "version": "0.0.1",
+  "homepage": "https://github.com/PeiJueChen/sign-in-with-apple-cordova-plugin",
+  "description": "sign in with apple",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:PeiJueChen/sign-in-with-apple-cordova-plugin.git"
+  },
+  "cordova": {
+    "id": "sign-in-with-apple-cordova-plugin",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "keywords": [
+    "sign-in-with-apple",
+    "sign in with apple",
+    "cordova-ios"
+  ],
+  "author": "peijue.chen@aigens.cn",
+  "license": "MIT"
+}
